@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<<<<<<< HEAD:repo.limasky/addon.xml
 <addon id="repo.limasky" name="LimaSky Repository" version="2.0.9" provider-name="Nao3Line">
+=======
+<addon id="repository.limasky" name="LimaSky Repository" version="2.0.9" provider-name="Nao3Line">
+>>>>>>> 4313d62ff0a294589227434e307db9d0c653e95c:repository.limasky/addon.xml
     <extension point="xbmc.addon.repository" name="LimaSky Repository">
         <info compressed="false">https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml.md5</checksum>

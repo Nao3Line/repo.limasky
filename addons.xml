@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
-  <addon id="repo.limasky" name="LimaSky Repository" version="2.0.9" provider-name="Nao3Line">
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="repo.limasky" name="LimaSky Repository" version="2.0.9" provider-name="Nao3Line">
     <extension point="xbmc.addon.repository" name="LimaSky Repository">
       <info>https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml.md5</checksum>
@@ -15,9 +14,7 @@
         <fanart>fanart.jpg</fanart>
       </assets>
     </extension>
-  </addon>
-
-  <addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
+  </addon><addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
     <requires>
       <import addon="xbmc.gui" version="5.17.0" />
       <import addon="plugin.program.autocompletion" version="2.1.2" />

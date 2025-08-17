@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons><addon id="repo.limasky" name="LimaSky Repository" version="2.0.9" provider-name="Nao3Line">
     <extension point="xbmc.addon.repository" name="LimaSky Repository">
-        <info compressed="false">https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/</datadir>
+		<dir>
+			<info>https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Nao3Line/repo.limasky/main/</datadir>
+		</dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Unofficial LimaSky TempEvo Skin Repository</summary>
@@ -15,9 +17,16 @@
 		</assets>
     </extension>
 </addon><addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
-  <requires>
-    <import addon="xbmc.gui" version="5.17.0" />
-  </requires>
+    	<requires>
+		<import addon="xbmc.gui" version="5.17.0" />
+		<import addon="plugin.program.autocompletion" version="2.1.2" />
+		<import addon="plugin.video.themoviedb.helper" version="5.2.25" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+		<import addon="script.globalsearch" version="3.0.4" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="service.upnext" version="1.1.9+MATRIX.1" />
+    	</requires>
     	<extension point="xbmc.addon.metadata">
         	<platform>all</platform>
         	<license>GNU GENERAL PUBLIC LICENSE Version 2.0</license>

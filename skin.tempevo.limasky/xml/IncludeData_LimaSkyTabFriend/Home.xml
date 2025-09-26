@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+	<include name="HomeLayout">
+        <control type="group" description="Main" id="9999">
+			<control type="button" id="99901">
+				<visible>!Window.isActive(1105)</visible>
+				<include>SlideFadeDownTwoWayVisible</include>
+				<description>DockMenu</description>
+				<centerleft>50%</centerleft>
+				<bottom>0</bottom>
+				<font>symbolSize36</font>
+				<width>144</width>
+	            <height>54</height>
+				<align>center</align>
+				<label></label>
+				<texturenofocus colordiffuse="80000000" border="8">shape/dim72/roundedtop.png</texturenofocus>
+				<texturefocus colordiffuse="sorotdark" border="8">shape/dim72/roundedtop.png</texturefocus>
+				<onclick>ActivateWindow(1105)</onclick>
+			</control>
+		</control>
+	</include>
+</includes>

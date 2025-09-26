@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1105">
+	<!-- only for LimaSky TabFriend -->
+	<zorder>110</zorder>
+    <onload>ClearProperty(menudialog_content,home)</onload>
+    <onunload>ClearProperty(menudialog_content,home)</onunload>
+	<controls>
+        	<control type="group">
+				<visible>String.IsEqual(Window(home).Property(menudialog_content),searchdialog)|String.IsEqual(Window(home).Property(menudialog_content),settingdialog)</visible>
+				<include>SlideFadeDownTwoWayFast</include>
+				<include>SlideFadeDownTwoWayFastVisible</include>
+				<left>64</left>
+				<bottom>144</bottom>
+				<width>324</width>
+				<height>540</height>
+            <include content="ModelDialogRounded">
+                <param name="modelkey_size"
+                       value="72" />
+                <param name="modelkey_color"
+                       value="CC000000" />
+                <param name="dimensionkey_size"
+                       value="dim72" />
+            </include>
+                <control type="label" id="1">
+                    <left>18</left>
+                    <top>0</top>
+                    <width>288</width>
+					<height>54</height>
+					<align>left</align>
+					<font>Font24Medium</font>
+					<textoffsetx>0</textoffsetx>
+					<textcolor>80FFFFFF</textcolor>
+					<label>$INFO[Window(home).Property(menudialog_header)]</label>
+				</control>
+				<control type="panel" id="90001">
+                   	<left>18</left>
+                 	<bottom>18</bottom>
+                    <width>288</width>
+                    <height>468</height>
+					<onup>20000</onup>
+					<ondown>20001</ondown>
+					<onright>5009</onright>
+					<onleft>599</onleft>
+					<onleft>Skin.SetBool(OpenSideMenu)</onleft>
+					<onfocus>Skin.Reset(OpenSideMenu)</onfocus>
+					<orientation>vertical</orientation>
+					<pagecontrol>5009</pagecontrol>
+					<scrolltime tween="cubic" easing="out">500</scrolltime>
+			<itemlayout height="42">
+				<include content="ListLayoutSmallSize">
+					<param name="size_control">42</param>
+					<param name="size_height" value="42"/>
+					<param name="size_borderimage">0</param>
+					<param name="dimensionkey_size" value="dim72"/>
+					<param name="font_forlabel" value="Font22Medium"/>
+					<param name="visible_details" value="true"/>
+					<param name="control_label1" value="$INFO[Listitem.label]"/>
+					<param name="control_label2" value="$INFO[Listitem.label2]"/>
+				</include>
+	                </itemlayout>
+	                <focusedlayout height="42">
+				<control type="group">
+					<include condition="!Skin.HasSetting(NoAnimationInSkin)">FocusedItemFade</include>
+					<include content="ModelListHorizontalRounded">
+						<param name="modelkey_size" value="42" />
+						<param name="modelkey_color" value="sorotan" />
+						<param name="dimensionkey_size" value="dim72" />
+					</include>
+				</control>
+				<include content="ListLayoutSmallSize">
+					<param name="size_control">42</param>
+					<param name="size_height" value="42"/>
+					<param name="dimensionkey_size" value="dim72"/>
+					<param name="size_borderimage">0</param>
+					<param name="font_forlabel" value="Font22Medium"/>
+					<param name="visible_details" value="true"/>
+					<param name="control_label1" value="$INFO[Listitem.label]"/>
+					<param name="control_label2" value="$INFO[Listitem.label2]"/>
+				</include>
+	               </focusedlayout>
+                   <content>
+                        <item>
+							<label>$LOCALIZE[31610]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),searchdialog)</visible>
+							<label>$LOCALIZE[31611]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick condition="System.AddonIsEnabled(script.globalsearch)">RunScript(script.globalsearch)</onclick>
+							<onclick condition="System.HasAddon(script.globalsearch) + !System.AddonIsEnabled(script.globalsearch)">EnableAddon(script.globalsearch)</onclick>
+							<onclick condition="!System.HasAddon(script.globalsearch)">InstallAddon(script.globalsearch)</onclick>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),searchdialog)</visible>
+							<label>$LOCALIZE[31613]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(addonbrowser,addons://search/,return)</onclick>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),searchdialog)</visible>
+							<label>$LOCALIZE[31612]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick condition="System.AddonIsEnabled(plugin.video.youtube)">ActivateWindow(videos,"plugin://plugin.video.youtube/kodion/search/list/",return)</onclick>
+							<onclick condition="System.HasAddon(plugin.video.youtube) + !System.AddonIsEnabled(plugin.video.youtube)">EnableAddon(plugin.video.youtube)</onclick>
+							<onclick condition="!System.HasAddon(plugin.video.youtube)">InstallAddon(plugin.video.youtube)</onclick>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[13200]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(Profiles)</onclick>
+							<icon>home/settings/profiles.png</icon>
+							<thumb>home/settings/profiles.png</thumb>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[14206]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(InterfaceSettings)</onclick>
+							<icon>home/settings/interface.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[14200]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(PlayerSettings)</onclick>
+							<icon>home/settings/player.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[14211]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(MediaSettings)</onclick>
+							<icon>home/settings/media.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[14204]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(PVRSettings)</onclick>
+							<icon>home/settings/livetv.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[15016]</label>
+							<visible>System.GetBool(gamesgeneral.enable)</visible>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(GameSettings)</onclick>
+							<icon>home/settings/games.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[14036]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(ServiceSettings)</onclick>
+							<icon>home/settings/network.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>$LOCALIZE[13000]</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>ActivateWindow(SystemSettings)</onclick>
+							<icon>home/settings/system.png</icon>
+						</item>
+						<item>
+							<visible>String.IsEqual(window(home).Property(menudialog_content),settingdialog)</visible>
+							<label>LibreELEC</label>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+							<onclick>Dialog.Close(1105)</onclick>
+							<onclick>RunAddon(service.libreelec.settings)</onclick>
+							<icon>home/settings/libreelec.png</icon>
+							<visible>System.AddonIsEnabled(service.libreelec.settings)</visible>
+						</item>
+                    </content>
+				</control>
+       		</control>
+        	<control type="group">
+			<visible>String.IsEqual(Window(home).Property(menudialog_content),menulistdialog)</visible>
+			<include>SlideFadeDownTwoWayFast</include>
+			<include>SlideFadeDownTwoWayFastVisible</include>
+				<left>64</left>
+				<bottom>144</bottom>
+				<width>612</width>
+				<height>720</height>
+				<control type="button">
+					<visible>!Window.IsActive(home)</visible>
+				<width>612</width>
+				<height>720</height>
+				<texturenofocus colordiffuse="sorotdark" border="8">shape/dim72/roundedsquare.png</texturenofocus>
+				<texturefocus colordiffuse="sorotdark" border="8">shape/dim72/roundedsquare.png</texturefocus>
+			</control>
+			<control type="button">
+				<width>612</width>
+				<height>720</height>
+				<texturenofocus colordiffuse="80000000" border="8">shape/dim72/roundedsquare.png</texturenofocus>
+				<texturefocus colordiffuse="80000000" border="8">shape/dim72/roundedsquare.png</texturefocus>
+			</control>
+        	<control type="group">
+                <left>18</left>
+                <right>18</right>
+                <top>18</top>
+				<height>72</height>
+				<control type="button">
+					<height>72</height>
+					<texturenofocus colordiffuse="80000000" border="8">shape/dim72/roundedsquare.png</texturenofocus>
+					<texturefocus colordiffuse="80000000" border="8">shape/dim72/roundedsquare.png</texturefocus>
+				</control>
+            		<control type="image">
+               	 		<description>profile image</description>
+                		<posx>0</posx>
+                		<posy>0</posy>
+                		<width>72</width>
+                		<height>72</height>
+						<bordersize>6</bordersize>
+                		<texture fallback="colors/black.png" diffuse="shape/dim72/roundedsquare.png">$INFO[System.ProfileThumb]</texture>
+               			<aspectratio scalediffuse="false">scale</aspectratio>
+            		</control>
+            		<control type="label">
+						<left>80</left>
+						<right>18</right>
+                		<posy>8</posy>
+                		<height>36</height>
+                		<font>Font24Bold</font>
+                		<aligny>center</aligny>
+                		<textcolor>FFFFFFFF</textcolor>
+                		<label>$INFO[System.ProfileName]</label>
+            		</control>
+            		<control type="label">
+						<left>80</left>
+						<right>18</right>
+                		<bottom>8</bottom>
+                		<height>24</height>
+                		<font>Font20Bold</font>
+                		<aligny>center</aligny>
+                		<textcolor>FFFFFFFF</textcolor>
+                		<label>LimaSky  (LimaSky TabFriend)</label>
+            		</control>
+				<control type="button" id="101">
+					<right>6</right>
+					<bottom>6</bottom>
+					<width>60</width>
+					<height>60</height>
+					<onleft>605</onleft>
+					<onright>607</onright>
+					<onup>490</onup>
+					<ondown>8002</ondown>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>symbolSize30</font>
+					<textcolor>textActive</textcolor>
+					<focusedcolor>textActive</focusedcolor>
+					<textoffsetx>0</textoffsetx>
+					<label></label>
+					<texturefocus colordiffuse="sorotbright">shape/dim72/roundedsquare.png</texturefocus>
+					<texturenofocus colordiffuse="sorotdark">shape/dim72/roundedsquare.png</texturenofocus>
+					<onclick>close</onclick>
+					<onclick>ActivateWindow(shutdownmenu)</onclick>
+				</control>
+			</control>
+				<control type="panel" id="90001">
+                   	<left>18</left>
+                   	<right>18</right>
+                 	<top>108</top>
+                 	<bottom>18</bottom>
+					<onup>20000</onup>
+					<ondown>20001</ondown>
+					<onright>5009</onright>
+					<onleft>599</onleft>
+					<onleft>Skin.SetBool(OpenSideMenu)</onleft>
+					<onfocus>Skin.Reset(OpenSideMenu)</onfocus>
+					<orientation>vertical</orientation>
+					<pagecontrol>5009</pagecontrol>
+					<scrolltime tween="cubic" easing="out">500</scrolltime>
+					<itemlayout width="144" height="162">
+						<control type="group">
+                   			<left>0</left>
+                 			<top>0</top>
+							<width>144</width>
+							<height>144</height>
+							<control type="image">
+								<left>0</left>
+								<width>144</width>
+								<height>108</height>
+								<texture diffuse="shape/dim144/roundedsquare.png" background="true">$INFO[ListItem.icon]</texture>
+								<colordiffuse>FFFFFFFF</colordiffuse>
+								<bordersize>9</bordersize>
+								<aspectratio scalediffuse="false">scale</aspectratio>
+							</control>
+							<control type="label">
+								<left>9</left>
+								<top>90</top>
+								<width>126</width>
+								<height>54</height>
+								<font>Font18Medium</font>
+								<textcolor>textActive</textcolor>
+								<align>center</align>
+								<label>$INFO[ListItem.Label]</label>
+							</control>
+						</control>
+					</itemlayout>
+	                <focusedlayout width="144" height="162">
+						<control type="group">
+                   			<left>0</left>
+                 			<top>0</top>
+							<width>144</width>
+							<height>144</height>
+							<control type="group">
+								<include condition="!Skin.HasSetting(NoAnimationInSkin)">FocusedItemFade</include>
+							<control type="image">
+								<left>0</left>
+								<width>144</width>
+								<height>144</height>
+								<texture>shape/dim144/roundedsquare.png</texture>
+								<colordiffuse>sorotan</colordiffuse>
+								<bordersize>0</bordersize>
+								<aspectratio scalediffuse="false">scale</aspectratio>
+							</control>
+							</control>
+							<control type="image">
+								<left>0</left>
+								<width>144</width>
+								<height>108</height>
+								<texture diffuse="shape/dim144/roundedsquare.png" background="true">$INFO[ListItem.icon]</texture>
+								<colordiffuse>FFFFFFFF</colordiffuse>
+								<bordersize>9</bordersize>
+								<aspectratio scalediffuse="false">scale</aspectratio>
+							</control>
+							<control type="label">
+								<left>9</left>
+								<top>90</top>
+								<width>126</width>
+								<height>54</height>
+								<font>Font18Medium</font>
+								<textcolor>textActive</textcolor>
+								<align>center</align>
+								<label>$INFO[ListItem.Label]</label>
+							</control>
+						</control>
+	               </focusedlayout>
+                   <content>
+                        <item id="0">
+                            <visible>!Skin.HasSetting(disableFavourites)</visible>
+                            <label>$LOCALIZE[1036]</label>
+                            <label2></label2>
+                            <icon>Cakra/Favourites.png</icon>
+                            <thumb />
+                            <property name="status">off</property>
+                            <property name="VerTitle">favorit</property>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(favouritesbrowser)</onclick>
+                        </item>
+                        <item id="1">
+                            <visible>!Skin.HasSetting(disableMovies)</visible>
+                            <property name="id">$NUMBER[2]</property>
+                            <label>$LOCALIZE[342]</label>
+                            <label2></label2>
+                            <icon>Cakra/Movies.png</icon>
+                            <property name="iconmini" />
+                            <property name="nowplaying">$INFO[VideoPlayer.Title]</property>
+                            <property name="secnowplaying">$INFO[VideoPlayer.Year]</property>
+                            <property name="VerTitle">film</property>
+                            <property name="RecomTitle">$INFO[Container(500188).ListItem.Title]</property>
+                            <visible>[Library.HasContent(Movies)]</visible>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(videos,videodb://movies/,return)</onclick>
+                        </item>
+                        <item id="2">
+                            <visible>!Skin.HasSetting(disableTVShows)</visible>
+                            <property name="id">$NUMBER[3]</property>
+                            <label>$LOCALIZE[20343]</label>
+                            <label2></label2>
+                            <icon>Cakra/tvshows.png</icon>
+                            <property name="iconmini" />
+                            <property name="nowplaying">$INFO[VideoPlayer.Title]</property>
+                            <property name="secnowplaying">$INFO[VideoPlayer.TVShowTitle]</property>
+                            <property name="VerTitle">acaratv</property>
+                            <property name="RecomTitle">$INFO[Container(500187).ListItem.Title]</property>
+                            <visible>[Library.HasContent(TVShows)] + [Library.HasContent(TVshows)]</visible>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(videos,videodb://tvshows/,return)</onclick>
+                        </item>
+                        <item id="3">
+                            <visible>!Skin.HasSetting(disableMusicVideos)</visible>
+                            <property name="id">$NUMBER[4]</property>
+                            <label>$LOCALIZE[20389]</label>
+                            <label2></label2>
+                            <icon>Cakra/MusicVideos.png</icon>
+                            <property name="iconmini" />
+                            <property name="nowplaying">$INFO[VideoPlayer.Title]</property>
+                            <property name="secnowplaying">$INFO[VideoPlayer.Artist]</property>
+                            <property name="VerTitle">videomusik</property>
+                            <property name="RecomTitle">$INFO[Container(500189).ListItem.Title]</property>
+                            <visible>[Library.HasContent(MusicVideos)] + [Library.HasContent(MusicVideos)]</visible>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(videos,videodb://musicvideos/,return)</onclick>
+                        </item>
+                        <item id="4">
+                            <visible>!Skin.HasSetting(disableMedia)</visible>
+                            <property name="id">$NUMBER[6]</property>
+                            <label>$LOCALIZE[2]</label>
+                            <label2></label2>
+                            <icon>Cakra/Music.png</icon>
+                            <property name="iconmini"></property>
+                            <property name="nowplaying">$INFO[MusicPlayer.Title]</property>
+                            <property name="secnowplaying">$INFO[MusicPlayer.Artist]</property>
+                            <property name="VerTitle">musik</property>
+                            <property name="RecomTitle">$INFO[Container(500199).ListItem.Title]</property>
+                            <visible>Library.HasContent(Music)</visible>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(Music,library://music/,return)</onclick>
+                        </item>
+                        <item id="5">
+                            <visible>!Skin.HasSetting(disablePictures)</visible>
+                            <property name="id">$NUMBER[7]</property>
+                            <label>$LOCALIZE[1]</label>
+                            <label2></label2>
+                            <icon>Cakra/Pictures.png</icon>
+                            <thumb />
+                            <property name="VerTitle">gambar</property>
+                            <property name="status">off</property>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(Pictures)</onclick>
+                        </item>
+                        <item id="6">
+                            <visible>!Skin.HasSetting(disableGames)</visible>
+                            <property name="id">$NUMBER[10]</property>
+                            <label>$LOCALIZE[10821]</label>
+                            <label2></label2>
+                            <icon>Cakra/Games.png</icon>
+                            <thumb />
+                            <property name="VerTitle">gim</property>
+                            <property name="status">off</property>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(games)</onclick>
+                        </item>
+                        <item id="7">
+                            <visible>!Skin.HasSetting(disableTV)</visible>
+                            <property name="id">$NUMBER[8]</property>
+                            <label>$LOCALIZE[31591]</label>
+                            <label2></label2>
+                            <icon>Cakra/LiveTV.png</icon>
+                            <thumb />
+                            <property name="iconmini" />
+                            <property name="VerTitle">pvr</property>
+                            <visible>[System.HasPVRAddon] + [PVR.HasTVChannels|PVR.HasRadioChannels]</visible>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(TVChannels)</onclick>
+                        </item>
+                        <item id="8">
+                            <visible>!Skin.HasSetting(disableWeather)</visible>
+                            <property name="id">$NUMBER[11]</property>
+                            <label>$LOCALIZE[12600]</label>
+                            <label2></label2>
+                            <icon>Cakra/Weather.png</icon>
+                            <thumb>$INFO[Window(weather).Property(Current.ConditionIcon)]</thumb>
+                            <property name="iconmini"></property>
+                            <property name="nowplaying">$INFO[Window(weather).Property(Location)]</property>
+                            <property name="secnowplaying">[B]$INFO[Weather.Temperature][/B]$INFO[Weather.Conditions,(,)]</property>
+                            <property name="VerTitle">cuaca</property>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(Weather)</onclick>
+                        </item>
+                        <item id="9">
+                            <visible>!Skin.HasSetting(disableAddons)</visible>
+                            <label>$LOCALIZE[24001]</label>
+                            <label2></label2>
+                            <icon>Cakra/Addons.png</icon>
+                            <thumb />
+                            <property name="VerTitle">pengaya</property>
+							<onclick>ClearProperty(menudialog_content,home)</onclick>
+                            <onclick>Dialog.Close(1105)</onclick>
+                            <onclick>ActivateWindow(addonbrowser)</onclick>
+                        </item>
+                    </content>
+				</control>
+       		</control>
+        <control type="group">
+			<visible>Skin.HasSetting(LimaSkyTabAktif)</visible>
+			<visible>!Skin.HasSetting(TurnOffStatusBar)</visible>
+			<visible>![Window.isActive(1106)|Window.isActive(1108)|Window.isActive(shutdownmenu)]</visible>
+			<visible>![Skin.HasSetting(MuVizSettoSimpleOSD) + Window.isActive(visualisation) + !Window.isActive(musicosd)]</visible>
+			<visible>![Window.isActive(VideoFullScreen.xml)+![Window.isActive(videoosd)|Window.isActive(fullscreeninfo)|Window.isActive(gameosd)]]</visible>
+			<include>SlideFadeDownTwoWayFast</include>
+			<include>SlideFadeDownTwoWayFastVisible</include>
+            <include>TaskbarandTimeDisplay</include>
+		</control>
+	</controls>
+</window>

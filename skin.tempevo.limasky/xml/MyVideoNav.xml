@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <backgroundcolor>latarcolor</backgroundcolor>
+    <defaultcontrol always="true">9999</defaultcontrol>
+	<onload condition="!Integer.isGreater(Container.NumAllItems,0)">AlarmClock(thisisvoidonviewlist,Control.SetFocus(404,0,absolute),00:00:01,silent)</onload>
+	<onunload condition="!Integer.isGreater(Container.NumAllItems,0)">CancelAlarm(thisisvoidonviewlist,silent)</onunload>
+    <onload condition="Skin.hassetting(stopVideoOnMenu) + !Player.HasAudio">PlayerControl(stop)</onload>
+    <views>50,51,52,53,54,55,56,57,58,59,500,501,502,503,504,505,506,507,508,509,510</views>
+    <controls>
+        <include>UniversalGlobalBackground</include>
+		<include condition="!Skin.HasSetting(DisableFanartBackground)">FanartBackground</include>
+        <control type="label">
+            <visible>!Integer.isGreater(Container.NumAllItems,0)</visible>
+            <include condition="!Skin.HasSetting(NoAnimationInSkin)">TempEvoSlideFadeFromUpToDown</include>
+            <include condition="!Skin.HasSetting(NoAnimationInSkin)">TempEvoSlideFadeFromUpToDownVisible</include>
+            <left>0</left>
+            <posy>396</posy>
+            <font>Font72Bold</font>
+            <width>100%</width>
+            <height>108</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$LOCALIZE[31598]</label>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+        <control type="label">
+            <visible>!Integer.isGreater(Container.NumAllItems,0)</visible>
+            <include condition="!Skin.HasSetting(NoAnimationInSkin)">TempEvoSlideFadeFromUpToDown</include>
+            <include condition="!Skin.HasSetting(NoAnimationInSkin)">TempEvoSlideFadeFromUpToDownVisible</include>
+            <left>0</left>
+            <posy>504</posy>
+            <font>Font36Medium</font>
+            <width>100%</width>
+            <height>108</height>
+            <align>center</align>
+            <aligny>center</aligny>
+            <label>$LOCALIZE[31599]</label>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+        <control type="button"
+                 id="20000">
+            <posx>-3600</posx>
+            <posy>-3600</posy>
+            <width>1</width>
+            <height>1</height>
+            <animation effect="fade"
+                       time="300"
+                       start="100"
+                       end="0">Focus</animation>
+            <onfocus>SetFocus(9999)</onfocus>
+            <onclick>noop</onclick>
+            <visible allowhiddenfocus="true">Control.HasFocus(20000)</visible>
+        </control>
+        <control type="button"
+                 id="20001">
+            <posx>-3600</posx>
+            <posy>-3600</posy>
+            <width>1</width>
+            <height>1</height>
+            <animation effect="fade"
+                       time="300"
+                       start="100"
+                       end="0">Focus</animation>
+            <onfocus>SetFocus(9999)</onfocus>
+            <onclick>noop</onclick>
+            <visible allowhiddenfocus="true">Control.HasFocus(20001)</visible>
+        </control>
+        <include>VideoViewList</include>
+    </controls>
+</window>

@@ -1,0 +1,854 @@
+# Kodi Media Center language file
+# Addon Name: LimaSky TempEvo
+# Addon id: skin.tempevo.limasky
+# Addon Provider: Nao3Line, TempeTahoo
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Skins\n"
+"Report-Msgid-Bugs-To: naomi_yazawa@asia.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nao3Line\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms_MY\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "#31003"
+msgid "Stop"
+msgstr "Henti"
+
+msgctxt "#31004"
+msgid "Pause"
+msgstr "Jeda"
+
+msgctxt "#31005"
+msgid "Rewind"
+msgstr "Putar balik"
+
+msgctxt "#31006"
+msgid "Forward"
+msgstr "Maju"
+
+msgctxt "#31007"
+msgid "Details"
+msgstr "Butiran"
+
+msgctxt "#31008"
+msgid "Sort by"
+msgstr "Susun mengikut"
+
+msgctxt "#31012"
+msgid "Now Playing"
+msgstr "Sedang Diputar"
+
+msgctxt "#31013"
+msgid "Continue Watching?"
+msgstr "Teruskan Menonton?"
+
+msgctxt "#31014"
+msgid "Notification"
+msgstr "Pemberitahuan"
+
+msgctxt "#31015"
+msgid "Volume"
+msgstr "Volum"
+
+msgctxt "#31019"
+msgid "Loading"
+msgstr "Memuat"
+
+msgctxt "#31020"
+msgid "One dot"
+msgstr "Satu titik"
+
+msgctxt "#31021"
+msgid "Status Bar"
+msgstr "Bar Status"
+
+msgctxt "#31022"
+msgid "Home"
+msgstr "Laman Utama"
+
+msgctxt "#31023"
+msgid "Welcome to Kodi"
+msgstr "Selamat Datang ke Kodi"
+
+msgctxt "#31029"
+msgid "Last logged in"
+msgstr "Terakhir log masuk"
+
+msgctxt "#31030"
+msgid "Enable simple Music OSD"
+msgstr "Dayakan OSD Muzik ringkas"
+
+msgctxt "#31031"
+msgid "Enable simple Video OSD"
+msgstr "Dayakan OSD Video ringkas"
+
+msgctxt "#31032"
+msgid "Show fake watermarks"
+msgstr "Tunjukkan tanda air palsu"
+
+msgctxt "#31033"
+msgid "Move the pop-up video playback to the background"
+msgstr "Alihkan mainan video pop-up ke latar belakang"
+
+msgctxt "#31034"
+msgid "Enable Debug Grid"
+msgstr "Dayakan Grid Debug"
+
+msgctxt "#31035"
+msgid "Enable Debug Information"
+msgstr "Dayakan Maklumat Debug"
+
+msgctxt "#31036"
+msgid "Enable Debug Skin Information"
+msgstr "Dayakan Maklumat Debug Kulit"
+
+msgctxt "#31037"
+msgid "Enable Debug Logging"
+msgstr "Dayakan Log Debug"
+
+msgctxt "#31038"
+msgid "Reset Skin"
+msgstr "Tetapkan Semula Kulit"
+
+msgctxt "#31042"
+msgid "Refresh Skin"
+msgstr "Segar Semula Kulit"
+
+msgctxt "#31043"
+msgid "This skin is developed solely as a visual interface for Kodi. It does not include, provide, or promote any illegal or pirated content in any form.[CR]Kodi and this skin do not come with TV channels, movies, or live streams by default. All content must be legally provided by the user through personal media or officially licensed services.[CR]The user is fully responsible for any content sources they add and use through Kodi."
+msgstr "Kulit ini dibangunkan semata-mata sebagai antara muka visual untuk Kodi. Ia tidak termasuk, menyediakan, atau mempromosikan sebarang kandungan haram atau cetak rompak dalam apa jua bentuk.[CR]Kodi dan kulit ini tidak disertakan dengan saluran TV, filem, atau strim langsung secara lalai. Semua kandungan mesti disediakan secara sah oleh pengguna melalui media peribadi atau perkhidmatan berlesen rasmi.[CR]Pengguna bertanggungjawab sepenuhnya untuk sebarang sumber kandungan yang mereka tambah dan gunakan melalui Kodi."
+
+msgctxt "#31044"
+msgid "Debugging"
+msgstr "Penyahpepijatan"
+
+msgctxt "#31045"
+msgid "About"
+msgstr "Perihal"
+
+msgctxt "#31046"
+msgid "Now"
+msgstr "Sekarang"
+
+msgctxt "#31048"
+msgid "Recommendation"
+msgstr "Cadangan"
+
+msgctxt "#31051"
+msgid "Watch Again"
+msgstr "Tonton Lagi"
+
+msgctxt "#31052"
+msgid "Based on release date"
+msgstr "Berdasarkan tarikh keluaran"
+
+msgctxt "#31054"
+msgid "Recently Added Movies"
+msgstr "Filem Ditambah Baru-baru Ini"
+
+msgctxt "#31056"
+msgid "In Progress Movies"
+msgstr "Filem Dalam Proses"
+
+msgctxt "#31057"
+msgid "Recently Added TV Shows"
+msgstr "Rancangan TV Ditambah Baru-baru Ini"
+
+msgctxt "#31058"
+msgid "Let's watch it again"
+msgstr "Mari tonton lagi"
+
+msgctxt "#31060"
+msgid "In Progress TV Shows"
+msgstr "Rancangan TV Dalam Proses"
+
+msgctxt "#31061"
+msgid "In Progress Episodes"
+msgstr "Episod Dalam Proses"
+
+msgctxt "#31062"
+msgid "Recently Added Episodes"
+msgstr "Episod Ditambah Baru-baru Ini"
+
+msgctxt "#31063"
+msgid "Featured MusicVideo Artist"
+msgstr "Artis Video Muzik Pilihan"
+
+msgctxt "#31064"
+msgid "Most Played Albums"
+msgstr "Album Paling Kerap Diputar"
+
+msgctxt "#31067"
+msgid "Featured artist"
+msgstr "Artis pilihan"
+
+msgctxt "#31068"
+msgid "The Best Album"
+msgstr "Album Terbaik"
+
+msgctxt "#31069"
+msgid "The Best Artist"
+msgstr "Artis Terbaik"
+
+msgctxt "#31070"
+msgid "Recently Played Music Videos"
+msgstr "Video Muzik Diputar Baru-baru Ini"
+
+msgctxt "#31071"
+msgid "Recently Played Songs"
+msgstr "Lagu Diputar Baru-baru Ini"
+
+msgctxt "#31072"
+msgid "The Best Actor"
+msgstr "Pelakon Terbaik"
+
+msgctxt "#31073"
+msgid "Finish"
+msgstr "Selesai"
+
+msgctxt "#31074"
+msgid "Media will finish in"
+msgstr "Media akan selesai dalam"
+
+msgctxt "#31075"
+msgid "has been played"
+msgstr "telah diputar"
+
+msgctxt "#31076"
+msgid "Queue"
+msgstr "Barisan"
+
+msgctxt "#31077"
+msgid "Your Rating"
+msgstr "Penilaian Anda"
+
+msgctxt "#31078"
+msgid "Lyrics add-on"
+msgstr "Add-on Lirik"
+
+msgctxt "#31079"
+msgid "Lyrics add-on settings"
+msgstr "Tetapan add-on Lirik"
+
+msgctxt "#31081"
+msgid "Visualisation settings"
+msgstr "Tetapan visualisasi"
+
+msgctxt "#31082"
+msgid "Choose presets"
+msgstr "Pilih pratetap"
+
+msgctxt "#31083"
+msgid "Highest Rated TV Shows"
+msgstr "Rancangan TV Peringkat Tertinggi"
+
+msgctxt "#31084"
+msgid "Highest Rated Episodes"
+msgstr "Episod Peringkat Tertinggi"
+
+msgctxt "#31085"
+msgid "Highest Rated Movies"
+msgstr "Filem Peringkat Tertinggi"
+
+msgctxt "#31086"
+msgid "Most Interested by You"
+msgstr "Paling Diminati Oleh Anda"
+
+msgctxt "#31087"
+msgid "Loading..."
+msgstr "Memuat..."
+
+msgctxt "#31088"
+msgid "Favourites"
+msgstr "Kegemaran"
+
+msgctxt "#31090"
+msgid "Movies"
+msgstr "Filem"
+
+msgctxt "#31093"
+msgid "TV Shows"
+msgstr "Rancangan TV"
+
+msgctxt "#31095"
+msgid "Music Videos"
+msgstr "Video Muzik"
+
+msgctxt "#31096"
+msgid "Music"
+msgstr "Muzik"
+
+msgctxt "#31099"
+msgid "Photo"
+msgstr "Foto"
+
+msgctxt "#31100"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31101"
+msgid "Radio"
+msgstr "Radio"
+
+msgctxt "#31102"
+msgid "Games"
+msgstr "Permainan"
+
+msgctxt "#31103"
+msgid "Weather"
+msgstr "Cuaca"
+
+msgctxt "#31104"
+msgid "Add-ons"
+msgstr "Add-on"
+
+msgctxt "#31105"
+msgid "Settings"
+msgstr "Tetapan"
+
+msgctxt "#31107"
+msgid "Current profile"
+msgstr "Profil semasa"
+
+msgctxt "#31108"
+msgid "Order"
+msgstr "Susunan"
+
+msgctxt "#31109"
+msgid "Sort"
+msgstr "Isih"
+
+msgctxt "#31110"
+msgid "Results for"
+msgstr "Keputusan untuk"
+
+msgctxt "#31111"
+msgid "Background"
+msgstr "Latar Belakang"
+
+msgctxt "#31112"
+msgid "Accessibility"
+msgstr "Kebolehcapaian"
+
+msgctxt "#31113"
+msgid "Playback and OSD"
+msgstr "Main Balik dan OSD"
+
+msgctxt "#31114"
+msgid "Information"
+msgstr "Maklumat"
+
+msgctxt "#31115"
+msgid "Limasky Theme"
+msgstr "Tema Limasky"
+
+msgctxt "#31116"
+msgid "Disable"
+msgstr "Lumpuhkan"
+
+msgctxt "#31117"
+msgid "Dummy Watermark"
+msgstr "Tanda Air Dummy"
+
+msgctxt "#31118"
+msgid "by"
+msgstr "oleh"
+
+msgctxt "#31119"
+msgid "Stop video when exit from fullscreen"
+msgstr "Hentikan video semasa keluar dari skrin penuh"
+
+msgctxt "#31120"
+msgid "Set Universal Background Image"
+msgstr "Tetapkan Imej Latar Belakang Universal"
+
+msgctxt "#31121"
+msgid "Reset universal background image"
+msgstr "Tetapkan semula imej latar belakang universal"
+
+msgctxt "#31122"
+msgid "Set a universal background on all windows"
+msgstr "Tetapkan latar belakang universal pada semua tingkap"
+
+msgctxt "#31123"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#31124"
+msgid "Highest Rating"
+msgstr "Penarafan Tertinggi"
+
+msgctxt "#31125"
+msgid "Continue Watching"
+msgstr "Teruskan Menonton"
+
+msgctxt "#31126"
+msgid "Highest User Rating"
+msgstr "Penarafan Pengguna Tertinggi"
+
+msgctxt "#31127"
+msgid "Most Played Songs"
+msgstr "Lagu Paling Kerap Diputar"
+
+msgctxt "#31128"
+msgid "Recently Added Songs"
+msgstr "Lagu Ditambah Baru-baru Ini"
+
+msgctxt "#31129"
+msgid "Play"
+msgstr "Main"
+
+msgctxt "#31130"
+msgid "Continue"
+msgstr "Teruskan"
+
+msgctxt "#31131"
+msgid "Information"
+msgstr "Maklumat"
+
+msgctxt "#31132"
+msgid "Show Episode"
+msgstr "Tunjukkan Episod"
+
+msgctxt "#31133"
+msgid "Other"
+msgstr "Lain-lain"
+
+msgctxt "#31134"
+msgid "Recently Played Album"
+msgstr "Album Diputar Baru-baru Ini"
+
+msgctxt "#31135"
+msgid "Recently Added Album"
+msgstr "Album Ditambah Baru-baru Ini"
+
+msgctxt "#31136"
+msgid "All"
+msgstr "Semua"
+
+msgctxt "#31137"
+msgid "User Favorite Album"
+msgstr "Album Kegemaran Pengguna"
+
+msgctxt "#31138"
+msgid "User Favorite Album"
+msgstr "Album Kegemaran Pengguna"
+
+msgctxt "#31139"
+msgid "User Favorite Episode"
+msgstr "Episod Kegemaran Pengguna"
+
+msgctxt "#31140"
+msgid "The Best Episode"
+msgstr "Episod Terbaik"
+
+msgctxt "#31141"
+msgid "Recently Added Music Videos"
+msgstr "Video Muzik Ditambah Baru-baru Ini"
+
+msgctxt "#31142"
+msgid "Touch Screen Mode"
+msgstr "Mod Skrin Sentuh"
+
+msgctxt "#31143"
+msgid "Open"
+msgstr "Buka"
+
+msgctxt "#31144"
+msgid "Mute"
+msgstr "Bisukan"
+
+msgctxt "#31145"
+msgid "Enter text here..."
+msgstr "Masukkan teks di sini..."
+
+msgctxt "#31150"
+msgid "Kiosk Mode"
+msgstr "Mod Kiosk"
+
+# For Welcome/Login Screen
+
+msgctxt "#31200"
+msgid "Welcome"
+msgstr "Selamat Datang"
+
+msgctxt "#31201"
+msgid "Welcome Back!"
+msgstr "Selamat Kembali!"
+
+msgctxt "#31202"
+msgid "Please select a user to continue"
+msgstr "Sila pilih pengguna untuk meneruskan"
+
+msgctxt "#31203"
+msgid "Hello"
+msgstr "Helo"
+
+msgctxt "#31204"
+msgid "If you feel bored in your life, then you need vacations and entertainment."
+msgstr "Jika anda berasa bosan dalam hidup, anda memerlukan percutian dan hiburan."
+
+msgctxt "#31205"
+msgid "Sign out of account"
+msgstr "Log keluar dari akaun"
+
+msgctxt "#31206"
+msgid "Exit the application"
+msgstr "Keluar dari aplikasi"
+
+msgctxt "#31207"
+msgid "Skip"
+msgstr "Langkau"
+
+msgctxt "#31208"
+msgid "The theme you choose"
+msgstr "Tema yang anda pilih"
+
+msgctxt "#31209"
+msgid "Do this later in skin settings"
+msgstr "Lakukan ini nanti dalam tetapan kulit"
+
+msgctxt "#31210"
+msgid "Don't show this again"
+msgstr "Jangan tunjukkan ini lagi"
+
+msgctxt "#31211"
+msgid "Reset all settings back to default"
+msgstr "Tetapkan semula semua tetapan kepada lalai"
+
+msgctxt "#31212"
+msgid "Next"
+msgstr "Seterusnya"
+
+msgctxt "#31213"
+msgid "Done"
+msgstr "Selesai"
+
+msgctxt "#31214"
+msgid "Quick Tips About LimaSky Controls"
+msgstr "Petua Pantas Mengenai Kawalan LimaSky"
+
+msgctxt "#31215"
+msgid "Click on the album/cover to close the OSD and cu-lrc-lyrics dialogs"
+msgstr "Klik pada album/sampul untuk menutup OSD dan dialog cu-lrc-lyrics"
+
+msgctxt "#31217"
+msgid "Skin Model"
+msgstr "Model Kulit"
+
+msgctxt "#31221"
+msgid "Visualisation and OSD Display Have Been Changed"
+msgstr "Visualisasi dan Paparan OSD Telah Diubah"
+
+msgctxt "#31222"
+msgid "The display has been changed to only display the visualisation."
+msgstr "Paparan telah diubah untuk hanya memaparkan visualisasi."
+
+msgctxt "#31223"
+msgid "The display is changed back to default."
+msgstr "Paparan ditukar kembali kepada lalai."
+
+# For Skin Setting
+
+msgctxt "#31251"
+msgid "Dark Black"
+msgstr "Hitam Gelap"
+
+msgctxt "#31252"
+msgid "Solid Color"
+msgstr "Warna Pekat"
+
+msgctxt "#31253"
+msgid "User Image"
+msgstr "Imej Pengguna"
+
+msgctxt "#31254"
+msgid "Default Pattern Background"
+msgstr "Latar Belakang Corak Lalai"
+
+msgctxt "#31255"
+msgid "User Image Collection"
+msgstr "Koleksi Imej Pengguna"
+
+msgctxt "#31256"
+msgid "User Videos"
+msgstr "Video Pengguna"
+
+msgctxt "#31260"
+msgid "Type Here..."
+msgstr "Taip di sini..."
+
+msgctxt "#31261"
+msgid "Select Image For Background"
+msgstr "Pilih Imej Untuk Latar Belakang"
+
+msgctxt "#31262"
+msgid "Select Image Folder For Background"
+msgstr "Pilih Folder Imej Untuk Latar Belakang"
+
+msgctxt "#31263"
+msgid "Select Video For Background"
+msgstr "Pilih Video Untuk Latar Belakang"
+
+# For Aspect Ratio Image
+msgctxt "#31264"
+msgid "Keep"
+msgstr "Simpan"
+
+msgctxt "#31265"
+msgid "Scale"
+msgstr "Skala"
+
+msgctxt "#31266"
+msgid "Stretch"
+msgstr "Regang"
+
+msgctxt "#31267"
+msgid "Center"
+msgstr "Pusat"
+
+msgctxt "#31268"
+msgid "Aspect Ratio for Wallpaper"
+msgstr "Nisbah Aspek Untuk Kertas Dinding"
+
+msgctxt "#31269"
+msgid "Choose Solid Color for Wallpaper"
+msgstr "Pilih Warna Pekat Untuk Kertas Dinding"
+
+msgctxt "#31270"
+msgid "Default"
+msgstr "Lalai"
+
+msgctxt "#31271"
+msgid "Only Visualisation"
+msgstr "Hanya Visualisasi"
+
+msgctxt "#31272"
+msgid "Simple Metro"
+msgstr "Metro Ringkas"
+
+msgctxt "#31273"
+msgid "Status bar visibility on skin"
+msgstr "Keterlihatan bar status pada kulit"
+
+msgctxt "#31274"
+msgid "Show the scroll bar on the skin"
+msgstr "Tunjukkan bar skrol pada kulit"
+
+msgctxt "#31275"
+msgid "Disable animations on some interactions and windows"
+msgstr "Lumpuhkan animasi pada beberapa interaksi dan tingkap"
+
+msgctxt "#31276"
+msgid "Screen dimness 0-100 (screen colors may be inaccurate)"
+msgstr "Kepekatan skrin 0-100 (warna skrin mungkin tidak tepat)"
+
+msgctxt "#31277"
+msgid "Show back button"
+msgstr "Tunjukkan butang kembali"
+
+msgctxt "#31280"
+msgid "Lockscreen"
+msgstr "Skrin Kunci"
+
+msgctxt "#31281"
+msgid "Anti-burn-in Mode"
+msgstr "Mod Anti-Bakar"
+
+msgctxt "#31282"
+msgid "Docking Mode"
+msgstr "Mod Dok"
+
+msgctxt "#31283"
+msgid "This model selection will apply if docking mode is not activated"
+msgstr "Pemilihan model ini akan digunakan jika mod dok tidak diaktifkan"
+
+msgctxt "#31284"
+msgid "Separate lock screen background"
+msgstr "Latar belakang skrin kunci berasingan"
+
+msgctxt "#31285"
+msgid "Widget"
+msgstr "Widget"
+
+msgctxt "#31286"
+msgid "Enable auto-lock"
+msgstr "Dayakan kunci automatik"
+
+msgctxt "#31287"
+msgid "Screen timeout for auto-lock (in seconds)"
+msgstr "Masa tamat skrin untuk kunci automatik (dalam saat)"
+
+msgctxt "#31288"
+msgid "Automatically close video OSD"
+msgstr "Tutup OSD video secara automatik"
+
+msgctxt "#31289"
+msgid "Time for auto close Video OSD (in seconds)"
+msgstr "Masa untuk penutupan automatik OSD Video (dalam saat)"
+
+msgctxt "#31290"
+msgid "Show Back/Close button"
+msgstr "Tunjukkan butang Kembali/Tutup"
+
+# For Library Music
+
+msgctxt "#31500"
+msgid "Music"
+msgstr "Muzik"
+
+msgctxt "#31501"
+msgid "Featured Playlist"
+msgstr "Senarai Main Pilihan"
+
+msgctxt "#31508"
+msgid "Recommendation(s)"
+msgstr "Cadangan"
+
+msgctxt "#31509"
+msgid "Queue(s)"
+msgstr "Barisan"
+
+msgctxt "#31510"
+msgid "Item(s)"
+msgstr "Item"
+
+msgctxt "#31511"
+msgid "Recently Played"
+msgstr "Baru Diputar"
+
+msgctxt "#31512"
+msgid "Most Played"
+msgstr "Paling Kerap Diputar"
+
+msgctxt "#31513"
+msgid "Recently Added"
+msgstr "Baru Ditambah"
+
+msgctxt "#31514"
+msgid "User Favorite"
+msgstr "Kegemaran Pengguna"
+
+msgctxt "#31515"
+msgid "Recommendation For You"
+msgstr "Cadangan Untuk Anda"
+
+msgctxt "#31516"
+msgid "Switch Playlist Content Type to Song"
+msgstr "Tukar Jenis Kandungan Senarai Main ke Lagu"
+
+msgctxt "#31517"
+msgid "Switch Playlist Content Type to Album"
+msgstr "Tukar Jenis Kandungan Senarai Main ke Album"
+
+msgctxt "#31518"
+msgid "Go to Full List"
+msgstr "Pergi ke Senarai Penuh"
+
+msgctxt "#31519"
+msgid "No media is playing"
+msgstr "Tiada media sedang dimainkan"
+
+msgctxt "#31520"
+msgid "Please play media from your library or click Party Mode to play media randomly."
+msgstr "Sila mainkan media dari pustaka anda atau klik Mod Parti untuk memainkan media secara rawak."
+
+msgctxt "#31521"
+msgid "Playlist options"
+msgstr "Pilihan senarai main"
+
+msgctxt "#31522"
+msgid "Set the type and add rules to create a smart playlist. These playlists are dynamic and include all media items from your database which apply to your chosen rules."
+msgstr "Tetapkan jenis dan tambah peraturan untuk mencipta senarai main pintar. Senarai main ini dinamik dan termasuk semua item media dari pangkalan data anda yang mematuhi peraturan yang anda pilih."
+
+msgctxt "#31523"
+msgid "Back to Top"
+msgstr "Kembali ke Atas"
+
+msgctxt "#31591"
+msgid "TV & Radio"
+msgstr "TV & Radio"
+
+# For Library Video
+
+msgctxt "#31598"
+msgid "There's nothing here!"
+msgstr "Tiada apa-apa di sini!"
+
+msgctxt "#31599"
+msgid "You have pressed the parent folder[CR]Click the button below for the next window."
+msgstr "Anda telah menekan folder induk[CR]Klik butang di bawah untuk tetingkap seterusnya."
+
+msgctxt "#31600"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#31601"
+msgid "All TV Shows"
+msgstr "Semua Rancangan TV"
+
+msgctxt "#31602"
+msgid "All Seasons"
+msgstr "Semua Musim"
+
+msgctxt "#31603"
+msgid "All Episodes"
+msgstr "Semua Episod"
+
+msgctxt "#31605"
+msgid "Change Location"
+msgstr "Tukar Lokasi"
+
+msgctxt "#31610"
+msgid "Close"
+msgstr "Tutup"
+
+msgctxt "#31611"
+msgid "Search local library"
+msgstr "Cari dalam pustaka tempatan"
+
+msgctxt "#31612"
+msgid "Search YouTube"
+msgstr "Cari di YouTube"
+
+msgctxt "#31613"
+msgid "Search add-ons"
+msgstr "Cari add-on"
+
+msgctxt "#31614"
+msgid "Video menu"
+msgstr "Menu video"
+
+msgctxt "#31615"
+msgid "DVD Menu"
+msgstr "Menu DVD"
+
+msgctxt "#31616"
+msgid "Cast and Role"
+msgstr "Pelakon dan Peranan"
+
+msgctxt "#31617"
+msgid "Add group"
+msgstr "Tambah kumpulan"
+
+msgctxt "#31618"
+msgid "Rename group"
+msgstr "Namakan semula kumpulan"
+
+msgctxt "#31619"
+msgid "Delete group"
+msgstr "Padam kumpulan"
+
+msgctxt "#31629"
+msgid "View Type"
+msgstr "Jenis Paparan"
+
+msgctxt "#31630"
+msgid "Binary"
+msgstr "Binari"

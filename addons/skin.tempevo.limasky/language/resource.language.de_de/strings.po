@@ -1,0 +1,854 @@
+# Kodi Media Center language file
+# Addon Name: LimaSky TempEvo
+# Addon id: skin.tempevo.limasky
+# Addon Provider: Nao3Line, TempeTahoo
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Skins\n"
+"Report-Msgid-Bugs-To: naomi_yazawa@asia.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nao3Line\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#31003"
+msgid "Stop"
+msgstr "Stopp"
+
+msgctxt "#31004"
+msgid "Pause"
+msgstr "Pause"
+
+msgctxt "#31005"
+msgid "Rewind"
+msgstr "Zurückspulen"
+
+msgctxt "#31006"
+msgid "Forward"
+msgstr "Vorspulen"
+
+msgctxt "#31007"
+msgid "Details"
+msgstr "Details"
+
+msgctxt "#31008"
+msgid "Sort by"
+msgstr "Sortieren nach"
+
+msgctxt "#31012"
+msgid "Now Playing"
+msgstr "Jetzt läuft"
+
+msgctxt "#31013"
+msgid "Continue Watching?"
+msgstr "Weiter schauen?"
+
+msgctxt "#31014"
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+msgctxt "#31015"
+msgid "Volume"
+msgstr "Lautstärke"
+
+msgctxt "#31019"
+msgid "Loading"
+msgstr "Lädt"
+
+msgctxt "#31020"
+msgid "One dot"
+msgstr "Ein Punkt"
+
+msgctxt "#31021"
+msgid "Status Bar"
+msgstr "Statusleiste"
+
+msgctxt "#31022"
+msgid "Home"
+msgstr "Startseite"
+
+msgctxt "#31023"
+msgid "Welcome to Kodi"
+msgstr "Willkommen bei Kodi"
+
+msgctxt "#31029"
+msgid "Last logged in"
+msgstr "Zuletzt angemeldet"
+
+msgctxt "#31030"
+msgid "Enable simple Music OSD"
+msgstr "Einfache Musik-OSD aktivieren"
+
+msgctxt "#31031"
+msgid "Enable simple Video OSD"
+msgstr "Einfache Video-OSD aktivieren"
+
+msgctxt "#31032"
+msgid "Show fake watermarks"
+msgstr "Falsche Wasserzeichen anzeigen"
+
+msgctxt "#31033"
+msgid "Move the pop-up video playback to the background"
+msgstr "Pop-up-Videowiedergabe in den Hintergrund verschieben"
+
+msgctxt "#31034"
+msgid "Enable Debug Grid"
+msgstr "Debug-Raster aktivieren"
+
+msgctxt "#31035"
+msgid "Enable Debug Information"
+msgstr "Debug-Informationen aktivieren"
+
+msgctxt "#31036"
+msgid "Enable Debug Skin Information"
+msgstr "Skin-Debug-Informationen aktivieren"
+
+msgctxt "#31037"
+msgid "Enable Debug Logging"
+msgstr "Debug-Protokollierung aktivieren"
+
+msgctxt "#31038"
+msgid "Reset Skin"
+msgstr "Skin zurücksetzen"
+
+msgctxt "#31042"
+msgid "Refresh Skin"
+msgstr "Skin aktualisieren"
+
+msgctxt "#31043"
+msgid "This skin is developed solely as a visual interface for Kodi. It does not include, provide, or promote any illegal or pirated content in any form.[CR]Kodi and this skin do not come with TV channels, movies, or live streams by default. All content must be legally provided by the user through personal media or officially licensed services.[CR]The user is fully responsible for any content sources they add and use through Kodi."
+msgstr "Dieser Skin wurde ausschließlich als visuelle Oberfläche für Kodi entwickelt. Er enthält, bietet oder fördert keinerlei illegale oder piratierte Inhalte in irgendeiner Form.[CR]Kodi und dieser Skin enthalten standardmäßig keine TV-Kanäle, Filme oder Live-Streams. Alle Inhalte müssen vom Benutzer über persönliche Medien oder offiziell lizenzierte Dienste legal bereitgestellt werden.[CR]Der Benutzer ist voll verantwortlich für alle Inhaltsquellen, die er über Kodi hinzufügt und nutzt."
+
+msgctxt "#31044"
+msgid "Debugging"
+msgstr "Debugging"
+
+msgctxt "#31045"
+msgid "About"
+msgstr "Über"
+
+msgctxt "#31046"
+msgid "Now"
+msgstr "Jetzt"
+
+msgctxt "#31048"
+msgid "Recommendation"
+msgstr "Empfehlung"
+
+msgctxt "#31051"
+msgid "Watch Again"
+msgstr "Erneut ansehen"
+
+msgctxt "#31052"
+msgid "Based on release date"
+msgstr "Nach Veröffentlichungsdatum"
+
+msgctxt "#31054"
+msgid "Recently Added Movies"
+msgstr "Kürzlich hinzugefügte Filme"
+
+msgctxt "#31056"
+msgid "In Progress Movies"
+msgstr "Begonnene Filme"
+
+msgctxt "#31057"
+msgid "Recently Added TV Shows"
+msgstr "Kürzlich hinzugefügte Serien"
+
+msgctxt "#31058"
+msgid "Let's watch it again"
+msgstr "Lass es uns nochmal ansehen"
+
+msgctxt "#31060"
+msgid "In Progress TV Shows"
+msgstr "Begonnene Serien"
+
+msgctxt "#31061"
+msgid "In Progress Episodes"
+msgstr "Begonnene Episoden"
+
+msgctxt "#31062"
+msgid "Recently Added Episodes"
+msgstr "Kürzlich hinzugefügte Episoden"
+
+msgctxt "#31063"
+msgid "Featured MusicVideo Artist"
+msgstr "Vorgestellter Musikvideo-Künstler"
+
+msgctxt "#31064"
+msgid "Most Played Albums"
+msgstr "Meistgehörte Alben"
+
+msgctxt "#31067"
+msgid "Featured artist"
+msgstr "Vorgestellter Künstler"
+
+msgctxt "#31068"
+msgid "The Best Album"
+msgstr "Das beste Album"
+
+msgctxt "#31069"
+msgid "The Best Artist"
+msgstr "Der beste Künstler"
+
+msgctxt "#31070"
+msgid "Recently Played Music Videos"
+msgstr "Kürzlich gehörte Musikvideos"
+
+msgctxt "#31071"
+msgid "Recently Played Songs"
+msgstr "Kürzlich gehörte Songs"
+
+msgctxt "#31072"
+msgid "The Best Actor"
+msgstr "Der beste Schauspieler"
+
+msgctxt "#31073"
+msgid "Finish"
+msgstr "Beenden"
+
+msgctxt "#31074"
+msgid "Media will finish in"
+msgstr "Medium endet in"
+
+msgctxt "#31075"
+msgid "has been played"
+msgstr "wurde abgespielt"
+
+msgctxt "#31076"
+msgid "Queue"
+msgstr "Warteschlange"
+
+msgctxt "#31077"
+msgid "Your Rating"
+msgstr "Ihre Bewertung"
+
+msgctxt "#31078"
+msgid "Lyrics add-on"
+msgstr "Lyrics-Addon"
+
+msgctxt "#31079"
+msgid "Lyrics add-on settings"
+msgstr "Lyrics-Addon-Einstellungen"
+
+msgctxt "#31081"
+msgid "Visualisation settings"
+msgstr "Visualisierungseinstellungen"
+
+msgctxt "#31082"
+msgid "Choose presets"
+msgstr "Voreinstellungen wählen"
+
+msgctxt "#31083"
+msgid "Highest Rated TV Shows"
+msgstr "Bestbewertete Serien"
+
+msgctxt "#31084"
+msgid "Highest Rated Episodes"
+msgstr "Bestbewertete Episoden"
+
+msgctxt "#31085"
+msgid "Highest Rated Movies"
+msgstr "Bestbewertete Filme"
+
+msgctxt "#31086"
+msgid "Most Interested by You"
+msgstr "Ihre größten Interessen"
+
+msgctxt "#31087"
+msgid "Loading..."
+msgstr "Lädt..."
+
+msgctxt "#31088"
+msgid "Favourites"
+msgstr "Favoriten"
+
+msgctxt "#31090"
+msgid "Movies"
+msgstr "Filme"
+
+msgctxt "#31093"
+msgid "TV Shows"
+msgstr "Serien"
+
+msgctxt "#31095"
+msgid "Music Videos"
+msgstr "Musikvideos"
+
+msgctxt "#31096"
+msgid "Music"
+msgstr "Musik"
+
+msgctxt "#31099"
+msgid "Photo"
+msgstr "Fotos"
+
+msgctxt "#31100"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31101"
+msgid "Radio"
+msgstr "Radio"
+
+msgctxt "#31102"
+msgid "Games"
+msgstr "Spiele"
+
+msgctxt "#31103"
+msgid "Weather"
+msgstr "Wetter"
+
+msgctxt "#31104"
+msgid "Add-ons"
+msgstr "Addons"
+
+msgctxt "#31105"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "#31107"
+msgid "Current profile"
+msgstr "Aktuelles Profil"
+
+msgctxt "#31108"
+msgid "Order"
+msgstr "Reihenfolge"
+
+msgctxt "#31109"
+msgid "Sort"
+msgstr "Sortieren"
+
+msgctxt "#31110"
+msgid "Results for"
+msgstr "Ergebnisse für"
+
+msgctxt "#31111"
+msgid "Background"
+msgstr "Hintergrund"
+
+msgctxt "#31112"
+msgid "Accessibility"
+msgstr "Barrierefreiheit"
+
+msgctxt "#31113"
+msgid "Playback and OSD"
+msgstr "Wiedergabe und OSD"
+
+msgctxt "#31114"
+msgid "Information"
+msgstr "Informationen"
+
+msgctxt "#31115"
+msgid "Limasky Theme"
+msgstr "Limasky-Theme"
+
+msgctxt "#31116"
+msgid "Disable"
+msgstr "Deaktivieren"
+
+msgctxt "#31117"
+msgid "Dummy Watermark"
+msgstr "Dummy-Wasserzeichen"
+
+msgctxt "#31118"
+msgid "by"
+msgstr "von"
+
+msgctxt "#31119"
+msgid "Stop video when exit from fullscreen"
+msgstr "Video beim Verlassen des Vollbildmodus stoppen"
+
+msgctxt "#31120"
+msgid "Set Universal Background Image"
+msgstr "Universelles Hintergrundbild festlegen"
+
+msgctxt "#31121"
+msgid "Reset universal background image"
+msgstr "Universelles Hintergrundbild zurücksetzen"
+
+msgctxt "#31122"
+msgid "Set a universal background on all windows"
+msgstr "Universellen Hintergrund für alle Fenster festlegen"
+
+msgctxt "#31123"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#31124"
+msgid "Highest Rating"
+msgstr "Höchste Bewertung"
+
+msgctxt "#31125"
+msgid "Continue Watching"
+msgstr "Weiterschauen"
+
+msgctxt "#31126"
+msgid "Highest User Rating"
+msgstr "Höchste Nutzerbewertung"
+
+msgctxt "#31127"
+msgid "Most Played Songs"
+msgstr "Meistgehörte Songs"
+
+msgctxt "#31128"
+msgid "Recently Added Songs"
+msgstr "Kürzlich hinzugefügte Songs"
+
+msgctxt "#31129"
+msgid "Play"
+msgstr "Abspielen"
+
+msgctxt "#31130"
+msgid "Continue"
+msgstr "Weiter"
+
+msgctxt "#31131"
+msgid "Information"
+msgstr "Informationen"
+
+msgctxt "#31132"
+msgid "Show Episode"
+msgstr "Episode anzeigen"
+
+msgctxt "#31133"
+msgid "Other"
+msgstr "Andere"
+
+msgctxt "#31134"
+msgid "Recently Played Album"
+msgstr "Kürzlich gehörtes Album"
+
+msgctxt "#31135"
+msgid "Recently Added Album"
+msgstr "Kürzlich hinzugefügtes Album"
+
+msgctxt "#31136"
+msgid "All"
+msgstr "Alle"
+
+msgctxt "#31137"
+msgid "User Favorite Album"
+msgstr "Benutzer-Favoriten-Album"
+
+msgctxt "#31138"
+msgid "User Favorite Album"
+msgstr "Benutzer-Favoriten-Album"
+
+msgctxt "#31139"
+msgid "User Favorite Episode"
+msgstr "Benutzer-Favoriten-Episode"
+
+msgctxt "#31140"
+msgid "The Best Episode"
+msgstr "Die beste Episode"
+
+msgctxt "#31141"
+msgid "Recently Added Music Videos"
+msgstr "Kürzlich hinzugefügte Musikvideos"
+
+msgctxt "#31142"
+msgid "Touch Screen Mode"
+msgstr "Touchscreen-Modus"
+
+msgctxt "#31143"
+msgid "Open"
+msgstr "Öffnen"
+
+msgctxt "#31144"
+msgid "Mute"
+msgstr "Stumm"
+
+msgctxt "#31145"
+msgid "Enter text here..."
+msgstr "Text hier eingeben..."
+
+msgctxt "#31150"
+msgid "Kiosk Mode"
+msgstr "Kiosk-Modus"
+
+# For Welcome/Login Screen
+
+msgctxt "#31200"
+msgid "Welcome"
+msgstr "Willkommen"
+
+msgctxt "#31201"
+msgid "Welcome Back!"
+msgstr "Willkommen zurück!"
+
+msgctxt "#31202"
+msgid "Please select a user to continue"
+msgstr "Bitte wählen Sie einen Benutzer aus"
+
+msgctxt "#31203"
+msgid "Hello"
+msgstr "Hallo"
+
+msgctxt "#31204"
+msgid "If you feel bored in your life, then you need vacations and entertainment."
+msgstr "Wenn Sie sich im Leben langweilen, brauchen Sie Urlaub und Unterhaltung."
+
+msgctxt "#31205"
+msgid "Sign out of account"
+msgstr "Vom Konto abmelden"
+
+msgctxt "#31206"
+msgid "Exit the application"
+msgstr "Anwendung beenden"
+
+msgctxt "#31207"
+msgid "Skip"
+msgstr "Überspringen"
+
+msgctxt "#31208"
+msgid "The theme you choose"
+msgstr "Das gewählte Thema"
+
+msgctxt "#31209"
+msgid "Do this later in skin settings"
+msgstr "Später in den Skin-Einstellungen erledigen"
+
+msgctxt "#31210"
+msgid "Don't show this again"
+msgstr "Nicht mehr anzeigen"
+
+msgctxt "#31211"
+msgid "Reset all settings back to default"
+msgstr "Alle Einstellungen zurücksetzen"
+
+msgctxt "#31212"
+msgid "Next"
+msgstr "Weiter"
+
+msgctxt "#31213"
+msgid "Done"
+msgstr "Fertig"
+
+msgctxt "#31214"
+msgid "Quick Tips About LimaSky Controls"
+msgstr "Kurztipps zu LimaSky-Steuerelementen"
+
+msgctxt "#31215"
+msgid "Click on the album/cover to close the OSD and cu-lrc-lyrics dialogs"
+msgstr "Klicken Sie auf das Album/Cover, um OSD- und cu-lrc-lyrics-Dialoge zu schließen"
+
+msgctxt "#31217"
+msgid "Skin Model"
+msgstr "Skin-Modell"
+
+msgctxt "#31221"
+msgid "Visualisation and OSD Display Have Been Changed"
+msgstr "Visualisierung und OSD-Anzeige wurden geändert"
+
+msgctxt "#31222"
+msgid "The display has been changed to only display the visualisation."
+msgstr "Die Anzeige wurde geändert, um nur die Visualisierung anzuzeigen."
+
+msgctxt "#31223"
+msgid "The display is changed back to default."
+msgstr "Die Anzeige wurde auf Standard zurückgesetzt."
+
+# For Skin Setting
+
+msgctxt "#31251"
+msgid "Dark Black"
+msgstr "Dunkles Schwarz"
+
+msgctxt "#31252"
+msgid "Solid Color"
+msgstr "Einfarbig"
+
+msgctxt "#31253"
+msgid "User Image"
+msgstr "Benutzerbild"
+
+msgctxt "#31254"
+msgid "Default Pattern Background"
+msgstr "Standard-Muster-Hintergrund"
+
+msgctxt "#31255"
+msgid "User Image Collection"
+msgstr "Benutzerbild-Sammlung"
+
+msgctxt "#31256"
+msgid "User Videos"
+msgstr "Benutzervideos"
+
+msgctxt "#31260"
+msgid "Type Here..."
+msgstr "Hier eingeben..."
+
+msgctxt "#31261"
+msgid "Select Image For Background"
+msgstr "Hintergrundbild auswählen"
+
+msgctxt "#31262"
+msgid "Select Image Folder For Background"
+msgstr "Hintergrundbild-Ordner auswählen"
+
+msgctxt "#31263"
+msgid "Select Video For Background"
+msgstr "Hintergrundvideo auswählen"
+
+# For Aspect Ratio Image
+msgctxt "#31264"
+msgid "Keep"
+msgstr "Beibehalten"
+
+msgctxt "#31265"
+msgid "Scale"
+msgstr "Skalieren"
+
+msgctxt "#31266"
+msgid "Stretch"
+msgstr "Strecken"
+
+msgctxt "#31267"
+msgid "Center"
+msgstr "Zentrieren"
+
+msgctxt "#31268"
+msgid "Aspect Ratio for Wallpaper"
+msgstr "Seitenverhältnis für Hintergrund"
+
+msgctxt "#31269"
+msgid "Choose Solid Color for Wallpaper"
+msgstr "Einfarbigen Hintergrund wählen"
+
+msgctxt "#31270"
+msgid "Default"
+msgstr "Standard"
+
+msgctxt "#31271"
+msgid "Only Visualisation"
+msgstr "Nur Visualisierung"
+
+msgctxt "#31272"
+msgid "Simple Metro"
+msgstr "Einfaches Metro"
+
+msgctxt "#31273"
+msgid "Status bar visibility on skin"
+msgstr "Sichtbarkeit der Statusleiste auf dem Skin"
+
+msgctxt "#31274"
+msgid "Show the scroll bar on the skin"
+msgstr "Scrollleiste auf dem Skin anzeigen"
+
+msgctxt "#31275"
+msgid "Disable animations on some interactions and windows"
+msgstr "Animationen bei einigen Interaktionen und Fenstern deaktivieren"
+
+msgctxt "#31276"
+msgid "Screen dimness 0-100 (screen colors may be inaccurate)"
+msgstr "Bildschirmdunkelheit 0-100 (Bildschirmfarben können ungenau sein)"
+
+msgctxt "#31277"
+msgid "Show back button"
+msgstr "Zurück-Button anzeigen"
+
+msgctxt "#31280"
+msgid "Lockscreen"
+msgstr "Sperrbildschirm"
+
+msgctxt "#31281"
+msgid "Anti-burn-in Mode"
+msgstr "Einbrennsicherungsmodus"
+
+msgctxt "#31282"
+msgid "Docking Mode"
+msgstr "Andockmodus"
+
+msgctxt "#31283"
+msgid "This model selection will apply if docking mode is not activated"
+msgstr "Diese Modellauswahl gilt, wenn der Andockmodus nicht aktiviert ist"
+
+msgctxt "#31284"
+msgid "Separate lock screen background"
+msgstr "Separater Sperrbildschirm-Hintergrund"
+
+msgctxt "#31285"
+msgid "Widget"
+msgstr "Widget"
+
+msgctxt "#31286"
+msgid "Enable auto-lock"
+msgstr "Automatische Sperre aktivieren"
+
+msgctxt "#31287"
+msgid "Screen timeout for auto-lock (in seconds)"
+msgstr "Bildschirm-Timeout für automatische Sperre (in Sekunden)"
+
+msgctxt "#31288"
+msgid "Automatically close video OSD"
+msgstr "Video-OSD automatisch schließen"
+
+msgctxt "#31289"
+msgid "Time for auto close Video OSD (in seconds)"
+msgstr "Zeit für automatisches Schließen der Video-OSD (in Sekunden)"
+
+msgctxt "#31290"
+msgid "Show Back/Close button"
+msgstr "Zurück/Schließen-Button anzeigen"
+
+# For Library Music
+
+msgctxt "#31500"
+msgid "Music"
+msgstr "Musik"
+
+msgctxt "#31501"
+msgid "Featured Playlist"
+msgstr "Vorgestellte Playlist"
+
+msgctxt "#31508"
+msgid "Recommendation(s)"
+msgstr "Empfehlung(en)"
+
+msgctxt "#31509"
+msgid "Queue(s)"
+msgstr "Warteschlange(n)"
+
+msgctxt "#31510"
+msgid "Item(s)"
+msgstr "Element(e)"
+
+msgctxt "#31511"
+msgid "Recently Played"
+msgstr "Kürzlich gehört"
+
+msgctxt "#31512"
+msgid "Most Played"
+msgstr "Am häufigsten gehört"
+
+msgctxt "#31513"
+msgid "Recently Added"
+msgstr "Kürzlich hinzugefügt"
+
+msgctxt "#31514"
+msgid "User Favorite"
+msgstr "Benutzerfavorit"
+
+msgctxt "#31515"
+msgid "Recommendation For You"
+msgstr "Empfehlungen für Sie"
+
+msgctxt "#31516"
+msgid "Switch Playlist Content Type to Song"
+msgstr "Playlist-Inhaltstyp zu Song wechseln"
+
+msgctxt "#31517"
+msgid "Switch Playlist Content Type to Album"
+msgstr "Playlist-Inhaltstyp zu Album wechseln"
+
+msgctxt "#31518"
+msgid "Go to Full List"
+msgstr "Zur vollständigen Liste"
+
+msgctxt "#31519"
+msgid "No media is playing"
+msgstr "Es wird kein Medium abgespielt"
+
+msgctxt "#31520"
+msgid "Please play media from your library or click Party Mode to play media randomly."
+msgstr "Bitte spielen Sie Medien aus Ihrer Bibliothek ab oder klicken Sie auf Party-Modus, um Medien zufällig abzuspielen."
+
+msgctxt "#31521"
+msgid "Playlist options"
+msgstr "Playlist-Optionen"
+
+msgctxt "#31522"
+msgid "Set the type and add rules to create a smart playlist. These playlists are dynamic and include all media items from your database which apply to your chosen rules."
+msgstr "Legen Sie den Typ fest und fügen Sie Regeln hinzu, um eine intelligente Playlist zu erstellen. Diese Playlists sind dynamisch und enthalten alle Medien aus Ihrer Datenbank, die Ihren gewählten Regeln entsprechen."
+
+msgctxt "#31523"
+msgid "Back to Top"
+msgstr "Zurück nach oben"
+
+msgctxt "#31591"
+msgid "TV & Radio"
+msgstr "TV & Radio"
+
+# For Library Video
+
+msgctxt "#31598"
+msgid "There's nothing here!"
+msgstr "Hier ist nichts!"
+
+msgctxt "#31599"
+msgid "You have pressed the parent folder[CR]Click the button below for the next window."
+msgstr "Sie haben den übergeordneten Ordner gedrückt[CR]Klicken Sie auf die Schaltfläche unten für das nächste Fenster."
+
+msgctxt "#31600"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#31601"
+msgid "All TV Shows"
+msgstr "Alle Serien"
+
+msgctxt "#31602"
+msgid "All Seasons"
+msgstr "Alle Staffeln"
+
+msgctxt "#31603"
+msgid "All Episodes"
+msgstr "Alle Episoden"
+
+msgctxt "#31605"
+msgid "Change Location"
+msgstr "Ort ändern"
+
+msgctxt "#31610"
+msgid "Close"
+msgstr "Schließen"
+
+msgctxt "#31611"
+msgid "Search local library"
+msgstr "Lokale Bibliothek durchsuchen"
+
+msgctxt "#31612"
+msgid "Search YouTube"
+msgstr "YouTube durchsuchen"
+
+msgctxt "#31613"
+msgid "Search add-ons"
+msgstr "Addons durchsuchen"
+
+msgctxt "#31614"
+msgid "Video menu"
+msgstr "Video-Menü"
+
+msgctxt "#31615"
+msgid "DVD Menu"
+msgstr "DVD-Menü"
+
+msgctxt "#31616"
+msgid "Cast and Role"
+msgstr "Besetzung und Rolle"
+
+msgctxt "#31617"
+msgid "Add group"
+msgstr "Gruppe hinzufügen"
+
+msgctxt "#31618"
+msgid "Rename group"
+msgstr "Gruppe umbenennen"
+
+msgctxt "#31619"
+msgid "Delete group"
+msgstr "Gruppe löschen"
+
+msgctxt "#31629"
+msgid "View Type"
+msgstr "Ansichtstyp"
+
+msgctxt "#31630"
+msgid "Binary"
+msgstr "Binär"

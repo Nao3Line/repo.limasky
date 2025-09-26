@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>100</defaultcontrol>
+	<onload>SetProperty(onnext,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10052,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10053,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10054,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10055,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10056,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10057,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10058,SetFocus(100))</onload>
+	<onload>SetProperty(onback_10059,SetFocus(100))</onload>
+	<controls>
+			<include>ScriptEmbuaryPeople</include>
+	</controls>
+</window>

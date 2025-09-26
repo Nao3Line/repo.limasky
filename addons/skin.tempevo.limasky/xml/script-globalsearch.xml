@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<backgroundcolor>latarcolor</backgroundcolor>
+	<onload condition="Skin.hassetting(stopVideoOnMenu) + !Player.HasAudio">PlayerControl(stop)</onload>
+	<views>50</views>
+	<controls>
+		<include>UniversalGlobalBackground</include>
+        	<control type="group" id="9999">
+			<include>ScriptSearch</include>
+            	</control>
+        <control type="group">
+			<visible>!Skin.HasSetting(HideScrollBaronSkin)</visible>
+            <include condition="!Skin.HasSetting(NoAnimationInSkin)">fadeInOutVisible</include>
+			<include content="DefaultScrollbars">
+				<param name="visible_verticalbar">Control.IsVisible(50)</param>
+				<param name="control_HeightVer">864</param>
+			</include>
+		</control>
+		<include content="DefaultWindowHeader">
+			<param name="visible_control">true</param>
+			<param name="header_label" value="$LOCALIZE[137]"/>
+			<param name="subheader_label" value="$LOCALIZE[283]"/>
+			<param name="content_containername">$INFO[Window.Property(GlobalSearch.SearchString)]</param>
+			<param name="pos_left" value="64"/>
+		</include>
+		<!--Universal Status Bar-->
+		<include>StatusBarandTimeDisplay</include>
+	</controls>
+</window>

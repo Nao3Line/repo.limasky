@@ -8,7 +8,7 @@
              name="LimaSky Repository">
     <info compressed="false">https://nao3line.github.io/repo.limasky/addons.xml</info>
     <checksum>https://nao3line.github.io/repo.limasky/addons.xml.md5</checksum>
-    <datadir zip="true">https://nao3line.github.io/repo.limasky/addons/</datadir>
+    <datadir zip="true">https://nao3line.github.io/repo.limasky/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">LimaSky Unofficial Repository</summary>
@@ -22,6 +22,7 @@
     </assets>
   </extension>
 </addon>
+
 <addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
     	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>

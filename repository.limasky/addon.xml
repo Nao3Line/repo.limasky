@@ -15,7 +15,6 @@
       Unofficial repository for Kodi Omega. Contains the Tempevo Limasky skin and future addons.
     </description>
     <platform>all</platform>
-    <license>GPL-2.0-or-later</license>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>

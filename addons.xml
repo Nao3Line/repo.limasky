@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<<<<<<< HEAD
-=======
 
->>>>>>> 6dcf32b (Add initial unofficial repo)
 <addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
     	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>

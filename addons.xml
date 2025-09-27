@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.limasky"
-       name="LimaSky Repository"
-       version="1.0.0"
-       provider-name="Nao3Line">
-  <extension point="xbmc.addon.repository"
-             name="LimaSky Repository">
-    <info compressed="false">https://nao3line.github.io/repo.limasky/addons.xml</info>
-    <checksum>https://nao3line.github.io/repo.limasky/addons.xml.md5</checksum>
-    <datadir zip="true">https://nao3line.github.io/repo.limasky/</datadir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">LimaSky Unofficial Repository</summary>
-    <description lang="en">
-      Unofficial repository for Kodi Omega. Contains the Tempevo Limasky skin and future addons.
-    </description>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
+<addon id="repository.limasky" name="LimaSky Repository" version="1.0.0" provider-name="Nao3Line">
+	<extension point="xbmc.addon.repository" name="LimaSky Repository">
+		<dir>
+			<info compressed="false">https://nao3line.github.io/repo.limasky/addons.xml</info>
+			<checksum>https://nao3line.github.io/repo.limasky/addons.xml.md5</checksum>
+			<datadir zip="true">https://nao3line.github.io/repo.limasky/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">LimaSky Unofficial Repository</summary>
+		<description lang="en">Unofficial repository for Kodi Omega. Contains the Tempevo Limasky skin and future addons.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">

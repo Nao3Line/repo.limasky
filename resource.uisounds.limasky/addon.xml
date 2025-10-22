@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.limasky" version="1.0.0" name="LimaSky UI Sounds" provider-name="Nao3Line">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">LimaSky sounds</summary>
+    <description lang="en">LimaSky sounds</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>

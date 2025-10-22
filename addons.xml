@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.limasky" name="LimaSky Repository" version="1.0.0" provider-name="Nao3Line">
+<addon id="repository.limasky" name="LimaSky Repository" version="1.0.1" provider-name="Nao3Line">
 	<extension point="xbmc.addon.repository" name="LimaSky Repository">
 		<dir>
 			<info compressed="false">https://nao3line.github.io/repo.limasky/addons.xml</info>
@@ -19,9 +19,25 @@
 	</extension>
 </addon>
 
-<addon id="skin.tempevo.limasky" version="2.0.9" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
+<addon id="resource.uisounds.limasky" version="1.0.0" name="LimaSky UI Sounds" provider-name="Nao3Line">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">LimaSky sounds</summary>
+    <description lang="en">LimaSky sounds</description>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="skin.tempevo.limasky" version="2.2.4" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
     	<requires>
-		<import addon="xbmc.gui" version="5.17.0"/>
+		<import addon="xbmc.gui" version="5.18.0"/>
 		<import addon="plugin.program.autocompletion" version="2.1.2"/>
 		<import addon="plugin.video.themoviedb.helper" version="5.2.25"/>
 		<import addon="resource.images.studios.white" version="0.0.1"/>
@@ -57,7 +73,7 @@
 			<screenshot>resources/screenshot-06.jpg</screenshot>
 			<screenshot>resources/screenshot-07.jpg</screenshot>
 		</assets>
-		<news>-Remodeling Window and dialog touchscreen friendly[CR]-Added Custom Locksreen Window[CR]-Fix Animation Loading, Buffering, and list</news>
+		<news>-Fix lockscreen[CR]-Fix some dialog menu[CR]-Fix Statusbar</news>
 		<summary lang="ar_SA">اجعل واجهة كودي أكثر جاذبية.</summary>
 		<summary lang="de_DE">Machen Sie Ihre Kodi-Oberfläche ansprechender.</summary>
 		<summary lang="en_GB">Make your Kodi interface more attractive.</summary>

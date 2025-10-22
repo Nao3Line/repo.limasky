@@ -37,7 +37,7 @@
 
 <addon id="skin.tempevo.limasky" version="2.2.4" name="LimaSky TempEvo" provider-name="Nao3Line, TempeTahoo">
     	<requires>
-		<import addon="xbmc.gui" version="5.18.0"/>
+		<import addon="xbmc.gui" version="5.17.0"/>
 		<import addon="plugin.program.autocompletion" version="2.1.2"/>
 		<import addon="plugin.video.themoviedb.helper" version="5.2.25"/>
 		<import addon="resource.images.studios.white" version="0.0.1"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="0">
+    <backgroundcolor>latarcolor</backgroundcolor>
+    <defaultcontrol>9001</defaultcontrol>
+    <onload condition="Skin.hasSetting(LimaSkyTabAktif)">ActivateWindow(1105)</onload>
+    <onload condition="Skin.hassetting(stopVideoOnMenu) + !Player.HasAudio">PlayerControl(stop)</onload>
+    <controls>
+        <include>UniversalGlobalBackground</include>
+        <include>HomeLayout</include>
+    </controls>
+</window>

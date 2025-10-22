@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">201</defaultcontrol>
+       <onunload condition="Skin.HasSetting(OSDDefaultPageChange)">Skin.Reset(OSDDefaultPageChange)</onunload>
+	<controls>
+			<include>TempEvoVideoOSDDefault</include>
+        	<control type="group" id="9999">
+			<include condition="!Skin.HasSetting(NoAnimationInSkin)">SlideFadeDownTwoWayFast</include>
+			<left>64</left>
+			<right>64</right>
+                	<bottom>36</bottom>
+			<height>162</height>
+			<include condition="!Skin.HasSetting(VideoOSDSettoSimpleOSD)">VideoOSDDefault</include>
+			<include condition="Skin.HasSetting(VideoOSDSettoSimpleOSD)">UniversalOSDSimple</include>
+		</control>
+	</controls>
+</window>

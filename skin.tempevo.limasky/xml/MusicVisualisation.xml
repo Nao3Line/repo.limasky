@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<backgroundcolor>latarcolor</backgroundcolor>
+	<defaultcontrol></defaultcontrol>
+	<onload condition="System.AddonIsEnabled(script.artistslideshow) + !Skin.HasSetting(disableFanartBackground)">RunScript(script.artistslideshow)</onload>
+	<controls>
+		<include>UniversalGlobalBackground</include>
+		<include>MusicVisualisation</include>
+	</controls>
+</window>

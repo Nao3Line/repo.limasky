@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="1126">
+	<visible>[Window.isActive(fullscreenvideo) | [Skin.HasSetting(MuVizSettoSimpleOSD) + Window.isActive(visualisation)]] + Skin.HasSetting(LimaskyPunyaTandaAir) + !Window.isActive(fullscreeninfo) + ![Window.IsActive(ExtendedProgressDialog) | Window.isActive(videoosd) | Window.isActive(musicosd) | Window.isActive(gameosd)]</visible>
+        <include>fadeInOut</include>
+        <include>fadeInOutVisible</include>
+    	<controls>
+        	<control type="group" id="99999">
+			<include condition="Skin.HasSetting(LimaskyPunyaTandaAir)">DefaultStatusBar</include>
+			<include condition="Skin.HasSetting(LimaskyPunyaTandaAir)">WatermarkMediaContent</include>
+		</control>
+    	</controls>
+</window>
+

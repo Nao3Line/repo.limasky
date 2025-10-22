@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<backgroundcolor>latarcolor</backgroundcolor>
+	<defaultcontrol>3</defaultcontrol>
+	<onload condition="Skin.hassetting(stopVideoOnMenu) + !Player.HasAudio">PlayerControl(stop)</onload>
+	<controls>
+		<include>UniversalGlobalBackground</include>
+		<include>CategorySetting</include>
+	</controls>
+</window>
